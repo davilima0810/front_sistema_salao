@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Usuários</title>
+  </head>
+  <body>
+    <!-- Main -->
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bg-purple border-danger sidebar collapse show" id="sidebar-nav">
+            <!-- Sidebar -->
+            <nav class="nav sidebar-nav navbar-dark flex-column">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.png" class="img-fluid" alt="">
+                </a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                          <span class="fas fa-home mr-2"></span>
+                          <span class="text-left">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agenda.html">
+                          <span class="far fa-calendar-plus mr-2"></span> 
+                          <span class="text-left">Agenda</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="caixa.html">
+                          <span class="fas fa-file-invoice-dollar mr-2"></span>
+                          <span class="text-left">Caixa</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html"> 
+                          <span class="fas fa-users"></span> 
+                          <span class="text-left">Clientes</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usuarios.html">
+                          <span class="fas fa-user mr-2"></span>
+                          <span class="text-left">Usuários</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtoservico.html">
+                          <span class="fas fa-shopping-cart mr-1"></span>
+                          <span class="text-left">Produtos / Serviços</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lotes.html">
+                          <span class="fas fa-box mr-2"></span> 
+                          <span class="text-left">Lotes</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="relatorios.html">
+                          <span class="fas fa-file-invoice mr-2"></span> 
+                          <span class="text-left">Relatórios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="funcionarios.html">
+                          <span class="fas fa-user-md mr-2"></span>
+                          <span class="text-left">Funcionários</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="configuracoes.html">
+                          <span class="fas fa-cog mr-2"></span>
+                          <span class="text-left">Configurações</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ajuda.html">
+                          <span class="fas fa-question-circle mr-2"></span>
+                          <span class="text-left">Ajuda</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-12 col-md-9 col-xl-10 px-0" id="wrap-content">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+                <a href="#" class="toggle-left-sidebar btn" data-toggle="collapse" data-target="#sidebar-nav"
+                   role="button" aria-controls="sidebar-nav" aria-expanded="true"
+                   aria-label="Toggle sidebar navigation"><span class="navbar-toggler-icon"></span></a>
+
+                <button class="navbar-toggler" style="border-color: transparent;" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#notificacoes"><i class="fa fa-bell"></i></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#notificacoes"><i class="fa fa-calendar"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarPerfil" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarPerfil">
+                                <a class="dropdown-item" href="#">Perfil</a>
+                                <a class="dropdown-item" href="#">Sair</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+          <div class="container-fluid py-md-3">
+            <h1  class="border-bottom">Usuários</h1>
+             <div class="mt-3 btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mb-3" role="group"
+                     aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"title="Adicionar" onclick="window.location.href='usuarios adicionar.html'"><i class="fa fa-plus"></i></button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"
+                            title="Editar"><i class="fa fa-pencil-square-o"></i></button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"
+                            title="Excluir"><i class="fa fa-trash-o"></i></button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"
+                            title="Imprimir"><i class="fa fa-print"></i></button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"
+                            title="Excel"><i class="fa fa-file-excel-o"></i></button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip"
+                            title="PDF"><i class="fa fa-file-pdf-o"></i></button>
+                </div>
+
+                <div class="px-0">
+                  <form class="form-inline">
+                    <label for="exampleFormControlSelect1" class="mb-3">Filtrar por:</label>
+                    <select class="custom-select mb-3 mx-sm-2" id="exampleFormControlSelect1" style="min-width: 200px;">
+                      <option value="">Selecione</option>
+                      <option value="1">Descrição</option>
+                      <option value="Tipo">Tipo</option>
+                      <option value="P">Preço</option>
+                    </select>
+                    
+                    <div class="input-group input-group-search mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text" id="btnGroupAddon"><span class="input-group-addon"><i
+                                    class="fa fa-search"></i></span></div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar"
+                               aria-describedby="btnGroupAddon">
+                    </div>
+                  </form>
+                </div>
+            </div>
+          <div class="table-responsive">          
+              <table class="table table-sm" border="1" bordercolor="white">
+                <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Nome</th>
+                  <th>CPF</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>Shampoo</td>
+                  <td>452.658.457-65</td>
+                  <td>123@gmail.com</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>Selagem</td>
+                  <td>452.658.457-65</td>
+                  <td>321@gmail.com</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container" style="text-align: center;">
+        <span class="text-muted">
+          AgenTech 
+          <i class="fa fa-copyright"></i><span class="sr-only">&copy;</span> 2018.
+          Todos os direitos reservados.
+        </span>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="assets/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/default.js"></script>
+  </body>
+</html>
